@@ -1,0 +1,50 @@
+.bg {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../../../public/img/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.auth {
+    .title-info {
+        margin-top: 100px;
+        // text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+        }
+
+        h2 {
+            margin: 0;
+            margin-left: 18px;
+        }
+    }
+
+    .form {
+        margin: 0 auto;
+        width: 400px;
+    }
+
+    .item {
+        margin-bottom: 16px;
+
+        button {
+            width: 100%;
+        }
+    }
+
+
+}
