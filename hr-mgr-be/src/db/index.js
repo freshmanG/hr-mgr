@@ -9,7 +9,9 @@
 // Modal 根据schema生成一套方法集合，这套方法用于操作集合和集合下的文档
 // const UserModal = mongoose.model('User', Userschema);
 // require('./Schemas/User')
+
 require('./Schemas/User');
+require('./Schemas/Invite-Code')
 const mongoose = require('mongoose');
 
 const connect = () => {

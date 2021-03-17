@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { getMeta } = require('./helper');
+const { getMeta } = require('../../helper/utlis');
 
 const UserSchema = new mongoose.Schema({
     account: String,
