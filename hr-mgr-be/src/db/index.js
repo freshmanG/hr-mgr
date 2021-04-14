@@ -10,9 +10,10 @@
 // const UserModal = mongoose.model('User', Userschema);
 // require('./Schemas/User')
 
-require('./Schemas/User');
-require('./Schemas/Invite-Code')
-require('./Schemas/Book')
+require('./Schemas/User');;
+require('./Schemas/Invite-Code');
+require('./Schemas/Book');
+require('./Schemas/InventoryLog');
 
 const mongoose = require('mongoose');
 

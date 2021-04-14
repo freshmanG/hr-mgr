@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { getMeta } = require('../../helper/utlis');
+const { getMeta,preSave } = require('../../helper/utlis');
 
 const BookSchema = new mongoose.Schema({
     // 书名 
@@ -16,5 +16,5 @@ const BookSchema = new mongoose.Schema({
     count:Number,
     meta:getMeta(),
 })
-
+BookSchema.pre('save', preSave);
 mongoose.model('Book', BookSchema);

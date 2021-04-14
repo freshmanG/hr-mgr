@@ -40,6 +40,8 @@
         </template>
 
         <template #actions="record">
+          <a href="javascript:;" @click="toDetail(record)">详情</a>
+          &emsp;&emsp;
           <a href="javascript:;" @click="update(record)">编辑</a>
           &emsp;&emsp;
           <a href="javascript:;" @click="remove(record)">删除</a>

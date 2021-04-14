@@ -1,0 +1,28 @@
+.base-info {
+    .items {
+        display: flex;
+
+        .item {
+            flex: 1;
+            display: flex;
+            margin-bottom: 16px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .title {
+                font-weight: 700;
+                color: rgba($color:#000, $alpha:0.7);
+                min-width: 70px;
+
+            }
+
+            .content {}
+        }
+    }
+}
+
+.log {
+    margin-top: 20px;
+}

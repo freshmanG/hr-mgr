@@ -15,8 +15,20 @@ const routes = [
         path: 'books',
         name: 'Books',
         component: () => import(/* webpackChunkName: "Books" */ '../views/Books/index.vue'),
-     }]
-  }
+    },
+     {
+        path: 'books/:id',
+        name: 'BookDetail',
+        component: () => import(/* webpackChunkName: "BookDetail" */ '../views/BookDetail/index.vue'),
+      },
+      {
+        path: '/users',
+        name: 'Users',
+        component: () => import(/* webpackChunkName: "Users" */ '../views/Users/index.vue'),
+      },
+    ],
+  },
+  
 ];
 
 const router = createRouter({
